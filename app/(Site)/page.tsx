@@ -1,13 +1,11 @@
-import AIQuestionBanner from "@/components/AIQuestionBanner";
 import FatemiyehHero from "@/components/FatemiyehHero";
-import FeatureBanners from "@/components/FeatureBanners";
-import Footer from "@/components/Footer";
 import LatestPrograms from "@/components/LatestPrograms";
-import SalehinGroups from "@/components/SalehinGroups";
-import SalehinIntroduction from "@/components/SalehinIntroduction";
+import AIQuestionBanner from "@/components/AIQuestionBanner";
 import TeachersSection from "@/components/TeachersSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import Image from "next/image";
+import FeatureBanners from "@/components/FeatureBanners";
+import SalehinIntroduction from "@/components/SalehinIntroduction";
+import SalehinGroups from "@/components/SalehinGroups";
 
 export default function Home() {
   return (
@@ -20,7 +18,6 @@ export default function Home() {
       <FeatureBanners />
       <SalehinIntroduction />
       <SalehinGroups />
-      <Footer />
     </>
   );
 }
